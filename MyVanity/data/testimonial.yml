@@ -1,0 +1,27 @@
+enable  : true
+title   : "THE BEAUTY APPLICATION"
+subtitle: "Can't remember the color of your foundation, its opening date or its price? Have you spotted a great lipstick but can't remember the name? The MyVanity mobile app is made for you!"
+testimonial_item :
+  - thumb : "images/products/register-products.png"
+    name  : "Register your beauty products"
+    company_position: ""
+    quote : > 
+            "Fill in the brand, the name of the product, its color, its opening date and many more in order to remember all your product details" 
+
+  - thumb : "images/products/rate-products.png"
+    name  : "Rate your products"
+    company_position: ""
+    quote : > 
+            "And comment on your feelings in order to remember which products to buy… or not!" 
+
+  - thumb : "images/products/favorite-products.png"
+    name  : "Bookmark your favorite products"
+    company_position: ""
+    quote : > 
+            "And find them easily so that you don't forget to buy them back" 
+
+  - thumb : "images/products/spotted-products.png"
+    name  : "Add the products you have spotted"
+    company_position: ""
+    quote : > 
+            "In order to buy them during your next shopping session!"

@@ -1,0 +1,14 @@
+enable : false
+heading : "THE BEAUTY APPLICATION"
+counter_item: 
+  - title: "Register your beauty products"
+    number: "Fill in the brand, the name of the product, its color, its opening date and many more in order to remember all your product details"
+
+  - title: "Rate your products"
+    number: "And comment on your feelings in order to remember which products to buy… or not!"
+
+  - title: "Bookmark your favorite products"
+    number: "And find them easily so that you don't forget to buy them back"
+
+  - title: "Add the products you have spotted"
+    number: "In order to buy them during your next shopping session!"

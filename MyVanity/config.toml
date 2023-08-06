@@ -1,0 +1,97 @@
+baseURL       = "https://www.myvanity-app.com"
+languageCode  = "en-us"
+title         = "MyVanity"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Information"
+    url     = "information"
+    weight  = 3
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "MyVanity - The beauty app that follows you everywhere!"
+  author = "MyVanity"
+  # Google Analytics
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://formspree.io/f/mdoraqpo"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    send_message                  = "Send Message"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Contact"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "MyVanity"
+    tagline               = "The beauty app that follows you everywhere!"
+    primary_button        = "Download on the App Store"
+    primary_button_url    = "https://apps.apple.com/app/myvanity/id1541481750"
+    secondary_button      = "Get it on Google Play"
+    secondary_button_url  = "https://play.google.com/store/apps/details?id=com.kapusch.myvanity"
+
+  [params.call_to_action]
+    enable              = false
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact"
+      address = ""
+      phone   = ""
+      email   = "myvanity.team@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+        [[params.footer.sitemap.link]]
+          name = "Information"
+          url  = "information"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/myvanityapp"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/myvanity.app/"
+      # Footer Service
+      [params.footer.service]
+        title       = "MyVanity"
+        description = "The Beauty Application!"
