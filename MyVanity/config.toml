@@ -13,7 +13,7 @@ summarylength = 25
     weight  = 1
   [[menu.nav]]
     name    = "Information"
-    url     = "information"
+    url     = "a-propos"
     weight  = 2
   [[menu.nav]]
     name    = "Contact"
