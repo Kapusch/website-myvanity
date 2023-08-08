@@ -12,12 +12,12 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "Contact"
-    url     = "contact"
-    weight  = 2
-  [[menu.nav]]
     name    = "Information"
     url     = "information"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
     weight  = 3
 
 # Site Params
@@ -37,11 +37,12 @@ summarylength = 25
     placeholder_first_name        = "First Name"
     placeholder_last_name         = "Last Name"
     placeholder_email             = "Email"
+    placeholder_about_the_project = "Write your message here..."
     send_message                  = "Send Message"
   
   # Navbar Action Button
   [params.navAction]
-    status  = true
+    status  = false
     name    = "Contact"
     url     = "contact"
   
@@ -49,12 +50,12 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "MyVanity"
-    tagline               = "The beauty app that follows you everywhere!"
-    primary_button        = "Download on the App Store"
+    background_image      = "images/backgrounds/myvanity-app-showcase.png"
+    heading               = ""
+    tagline               = ""
+    primary_button        = ""
     primary_button_url    = "https://apps.apple.com/app/myvanity/id1541481750"
-    secondary_button      = "Get it on Google Play"
+    secondary_button      = ""
     secondary_button_url  = "https://play.google.com/store/apps/details?id=com.kapusch.myvanity"
 
   [params.call_to_action]
